@@ -3,6 +3,13 @@
 	"EngineAssociation": "4.7",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "VRKarts",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"TargetPlatforms": [
 		"WindowsNoEditor"
 	]
