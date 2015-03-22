@@ -7,7 +7,30 @@ public class VRKarts : ModuleRules
 	public VRKarts(TargetInfo Target)
 	{
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "PhysX", "APEX"});
+        PublicAdditionalLibraries.AddRange(new string[] 
+        {
+            "Win64/VS2013/PhysX3CommonPROFILE_x64.lib",
+            "Win64/VS2013/PhysX3CookingPROFILE_x64.lib",
+            "Win64/VS2013/PhysX3ExtensionsPROFILE.lib",
+            "Win64/VS2013/PhysX3PROFILE_x64.lib",
+            "Win64/VS2013/PhysX3VehiclePROFILE.lib",
+            "Win64/VS2013/PhysXProfileSDKPROFILE.lib",
+            "Win64/VS2013/PhysXVisualDebuggerSDKPROFILE.lib",
+            "Win64/VS2013/PxTaskPROFILE.lib",
 
+            "Win32/VS2013/PhysX3CommonPROFILE_x86.lib",
+            "Win32/VS2013/PhysX3CookingPROFILE_x86.lib",
+            "Win32/VS2013/PhysX3ExtensionsPROFILE.lib",
+            "Win32/VS2013/PhysX3PROFILE_x86.lib",
+            "Win32/VS2013/PhysXProfileSDKPROFILE.lib",
+            "Win32/VS2013/PhysXVisualDebuggerSDKPROFILE.lib",
+            "Win32/VS2013/PxTaskPROFILE.lib",
+
+            "Win64/VS2013/ApexFrameworkPROFILE_x64.lib",
+            "Win32/VS2013/ApexFrameworkPROFILE_x86.lib"
+        });             
+            
+        
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
 		// Uncomment if you are using Slate UI

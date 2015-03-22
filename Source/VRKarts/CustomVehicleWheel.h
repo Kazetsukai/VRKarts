@@ -23,7 +23,7 @@ class VRKARTS_API UCustomVehicleWheel : public UObject
 	* (if empty, sphere will be added as wheel shape, check bDontCreateShape flag)
 	*/
 	UPROPERTY(EditDefaultsOnly, Category = Shape)
-	class UStaticMesh*								CollisionMesh;
+		class UStaticMesh*								CollisionMesh;
 
 	/** If set, shape won't be created, but mapped from chassis mesh */
 	UPROPERTY(EditDefaultsOnly, Category = Shape)
