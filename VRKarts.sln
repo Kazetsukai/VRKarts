@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{61D00E16-B12A-4DC0-AD08-68FB02292051}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{2271DE24-232A-4011-8389-FF6E6CE68D04}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{F12F61E5-8F1A-4912-AA24-E91F305ABCCB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{BE0D13D8-8C9C-42D6-A0B4-27B6038BDEDE}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VRKarts", "Intermediate\ProjectFiles\VRKarts.vcxproj", "{ECBA2120-FD55-4019-9DDB-8BF2A54619C2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UE4", "Intermediate\ProjectFiles\UE4.vcxproj", "{F5A2B591-19FE-433A-B4A7-A9FB63B689A7}"
 EndProject
@@ -30,17 +30,12 @@ Global
 		{ECBA2120-FD55-4019-9DDB-8BF2A54619C2}.Development|Windows.Build.0 = Development_Game|x64
 		{ECBA2120-FD55-4019-9DDB-8BF2A54619C2}.Shipping|Windows.ActiveCfg = Shipping_Game|Win32
 		{ECBA2120-FD55-4019-9DDB-8BF2A54619C2}.Shipping|Windows.Build.0 = Shipping_Game|Win32
-		{F5A2B591-19FE-433A-B4A7-A9FB63B689A7}.DebugGame Editor|Windows.ActiveCfg = BuiltWithUnrealBuildTool|Win32
-		{F5A2B591-19FE-433A-B4A7-A9FB63B689A7}.DebugGame|Windows.ActiveCfg = BuiltWithUnrealBuildTool|Win32
-		{F5A2B591-19FE-433A-B4A7-A9FB63B689A7}.Development Editor|Windows.ActiveCfg = BuiltWithUnrealBuildTool|Win32
-		{F5A2B591-19FE-433A-B4A7-A9FB63B689A7}.Development|Windows.ActiveCfg = BuiltWithUnrealBuildTool|Win32
-		{F5A2B591-19FE-433A-B4A7-A9FB63B689A7}.Shipping|Windows.ActiveCfg = BuiltWithUnrealBuildTool|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{ECBA2120-FD55-4019-9DDB-8BF2A54619C2} = {F12F61E5-8F1A-4912-AA24-E91F305ABCCB}
-		{F5A2B591-19FE-433A-B4A7-A9FB63B689A7} = {61D00E16-B12A-4DC0-AD08-68FB02292051}
+		{F5A2B591-19FE-433A-B4A7-A9FB63B689A7} = {2271DE24-232A-4011-8389-FF6E6CE68D04}
+		{ECBA2120-FD55-4019-9DDB-8BF2A54619C2} = {BE0D13D8-8C9C-42D6-A0B4-27B6038BDEDE}
 	EndGlobalSection
 EndGlobal
